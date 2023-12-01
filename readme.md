@@ -1,3 +1,8 @@
+# Import project
+Choose a workspace (could be a newly created one) :
+→ File → Import
+→ General → Existing projects into workspace → Select root directory → Choose git clone folder
+
 ## Membre du groupe
 → MIHUTA Mihail (mihail.mihuta@ynov.com)
 
