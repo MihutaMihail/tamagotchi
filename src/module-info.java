@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Utilisateur
+ *
+ */
+module Tamagochi {
+}

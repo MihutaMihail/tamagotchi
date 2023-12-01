@@ -1,0 +1,7 @@
+Energy :7
+Strength :50
+Happiness :9
+Hunger :2
+Tiredness :8
+Cleanliness :2
+StrengthPenalty :1

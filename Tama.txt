@@ -1,0 +1,9 @@
+Name :hj
+Energy :9
+Strength :1
+Happiness :10
+Hunger :3
+Tiredness :2
+Cleanliness :6
+StrengthPenalty :0
+NbOfVictories :0

@@ -1,0 +1,103 @@
+The USER will have a choice before he starts the game
+	→ New Game (this can be done even if a savefile exists) (this of course will overwrite the current savefile if the USER has decide to SAVE)
+	→ Continue (this action will only be available if the USER has saved its current "Tamagotchi")
+
+## Part 1
+► Class "Tamagotchi"
+	→ Name (nom)
+	→ Energy (energy)
+	→ Strength (force)
+	→ Happiness (joie)
+	→ Hunger (faim)
+	→ Tiredness (fatigue)
+	→ Cleanliness (propreté)
+	→ N° of Victories (nbDeVictoire) 
+	→ StrengthPenalty (malusForce)
+
+► Create a counter for the number of turns passed (must be shown at the start of each turn)
+	Each turn has 4 types of actions (a text must be shown for each action ie if the hunger increases 
+										by a random action, a text indicating that the hunger has increased by a random action will be shown)
+	
+	► Action made by USER (the USER has to choose 1 of the 4 options per turn). Each action REQUIRES 1 Energy
+		→ Feed the "Tamagotchi"
+			→ Hunger = 0 | StrengthPenalty--
+			
+		→ Play Outside with your "Tamagotchi"
+			→ Happiness = 10 | Tiredness++
+			
+		→ Wash the "Tamagotchi"
+			→ Cleanliness = 10
+			
+		→ Pet the "Tamagotchi" →
+			→ Energy = Strength + Happiness - Hunger - Tiredness | Tiredness = 0
+			
+	► Action per turn (this happens every turn)
+		→ Hunger++
+		→ Tiredness++
+		→ Cleanliness--
+		→ nbTurns++
+
+	► Random action per turn (1 of the 3 options will be chosen randomly)
+		→ Hunger++
+		→ Tiredness++
+		→ Cleanliness--
+		
+	► Actions based on a condition (the action may only happen when its condition is met)
+		→ If Hunger > 7
+			→ Happiness--
+			→ Tiredness++
+			→ Energy--
+		
+		→ If Tiredness > 7
+			→ StrengthPenalty++
+			→ Energy--
+		
+		→ If Cleanliness < 3
+			→ Happiness--
+			→ Energy--
+			→ Strength--
+	
+		→ If Happiness	< 3 
+			→ Tiredness++
+			→ Energy--
+			→ Strength--
+		
+► Show the "Tamagotchi" stats whenever they are modified
+
+► A SAVE feature must be developed (the savefile will be called "Tama.txt")
+	Order of attributes (in the savefile)
+	→ Name (nom)
+	→ Energy (energy)
+	→ Strength (force)
+	→ Happiness (joie)
+	→ Hunger (faim)
+	→ Tiredness (fatigue)
+	→ Cleanliness (propreté)
+	→ StrengthPenalty (malusForce)
+
+
+## Part 2
+
+► Create a list which contains multiple "Tamagotchi" (their attributes are randomly generated) (maybe 5/10 of them)
+	→ Energy / Happiness / Cleanliness = 5-10 (between 5 and 10)
+	→ Hunger / Tiredness / StrengthPenalty = 0-5 (between 0 and 5)
+
+► After the 4 actions (PART 1) are done, we get a choice to 
+	→ Fight a randomly generated "Tamagotchi" (there are several "Tamagotchi" and the USER has to fight 1 of them) (the "Tamagotchi" chosen will be random)
+	→ Fight a "Tamagotchi" that has already been created (the "Tamagotchi" attributes will be put in a txt file that will be read to "import" the "Tamagotchi")
+	 																															(name savefile : TamaEnemy.txt)
+
+► When a fight starts, the strength of the USERs "Tamagotchi" and the enemies will be calculated
+	→ Strength = (nbTurns / 10 - StrengthPenalty) + 1-10 (random number between 1 and 10)
+
+► A fight will be based on whoever has the higher STRENGTH
+
+► Whoever has the highest strength will win (if USER has won, modify N° of Victories)
+
+► After the 4 actions (PART 1) are done AND the fight (PART 2) has been finished, a new turn will start
+	However, before the turn starts the USER will be granted a choice
+		→ Do you want to save your "Tamagotchi" and continue ?
+			(this will save the current attributes of the "Tamagotchi" that the USER has)
+		→ Do you want to save your "Tamagotchi" and exit ?	
+			
+		
