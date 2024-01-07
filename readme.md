@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Demo](#demo)
+- [Demo Youtube](#demo-youtube)
 - [About](#about)
 
 
@@ -18,7 +18,7 @@ For the project to work, you will need to run it inside an IDE made for java. Th
 **(3)** General → Existing projects into workspace <br>
 **(4)** Select root directory → Choose the ```$git clone``` folder.
 
-## Demo
+## Demo Youtube
 [![Watch the video](https://img.youtube.com/vi/ifg4QatbE4o/hqdefault.jpg)](https://www.youtube.com/watch?v=ifg4QatbE4o)
 
 ## About
