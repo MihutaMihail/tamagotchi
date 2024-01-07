@@ -22,6 +22,8 @@ For the project to work, you will need to run it inside an IDE made for java. Th
 [![Watch the video](https://img.youtube.com/vi/ifg4QatbE4o/hqdefault.jpg)](https://www.youtube.com/watch?v=ifg4QatbE4o)
 
 ## About
+• _readmeCode = folder where you can see the code of the project without having to put it inside of an IDE like Eclipse. 
+
 • The file **ThingsToDo.txt** is how I've started the project. Write everything that I need to do first, before beginning coding.
 
 • The file **Tama.txt** contains the stats of your own tamagothi (you have an option where you can save at the end of the turn).
