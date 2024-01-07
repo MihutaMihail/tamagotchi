@@ -7,7 +7,7 @@ public class TxtConst {
 	
 	public static final String ACTIONUSER = "\nChoose an action for your Tamagotchi"
 			+ "\n 1. Feed him"
-			+ "\n 2. Let him play Outside"
+			+ "\n 2. Let him play outside"
 			+ "\n 3. Wash him"
 			+ "\n 4. Pet him";
 	

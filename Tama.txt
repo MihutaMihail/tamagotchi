@@ -1,9 +1,9 @@
-Name :hj
-Energy :9
-Strength :1
+Name :Test
+Energy :3
+Strength :4
 Happiness :10
-Hunger :3
-Tiredness :2
-Cleanliness :6
+Hunger :2
+Tiredness :6
+Cleanliness :4
 StrengthPenalty :0
-NbOfVictories :0
+NbOfVictories :1
