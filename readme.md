@@ -20,7 +20,7 @@ For the project to work, you will need to run it inside an IDE made for java. Th
 
 ## Demo Youtube
 #### Click on the image
-[![Watch the video](https://img.youtube.com/vi/ifg4QatbE4o/hqdefault.jpg)](https://www.youtube.com/watch?v=ifg4QatbE4o)
+[![Watch the video](https://img.youtube.com/vi/NdoCtU_5-l8/maxresdefault.jpg)](https://www.youtube.com/watch?v=NdoCtU_5-l8)
 
 ## About
 • _readmeCode = folder where you can see the code of the project without having to put it inside of an IDE like Eclipse. 
